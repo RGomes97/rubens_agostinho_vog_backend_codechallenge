@@ -4,5 +4,11 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="App\Domain\Repositories\" />
+    <Folder Include="App\Domain\Validators\" />
+    <Folder Include="App\Domain\Services\" />
+  </ItemGroup>
+
 
 </Project>
