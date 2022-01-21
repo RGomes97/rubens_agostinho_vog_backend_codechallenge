@@ -6,6 +6,6 @@ namespace VogCodeChallenge.API.App.Domain
     {
         public string Name { get; set; }
         public string Address { get; set; }
-        public List<Employee> Employees { get; set; }
+        public virtual ICollection<Employee> Employees { get; set; }
     }
 }

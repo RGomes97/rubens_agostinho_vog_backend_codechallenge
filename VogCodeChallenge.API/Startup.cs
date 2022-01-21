@@ -10,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using VogCodeChallenge.API.App.Infrastructure;
 
 namespace VogCodeChallenge.API
 {
@@ -25,6 +26,7 @@ namespace VogCodeChallenge.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            DependencyResolver.Configure(services);
             services.AddControllers();
         }
 

@@ -38,7 +38,7 @@ namespace VogCodeChallenge.API.App.Domain.DataLoaders
             {
                 new Department()
                 {
-                    Id = Guid.NewGuid(),
+                    Id = Guid.Parse("b2f029bd-e329-4691-8b78-3d2e6008a701"),
                     Address = "Address Test 2",
                     Name = "Name test 2"
                 },
